@@ -1,3 +1,7 @@
 {"chunk":null,"ts":"2026-09-24T16:37:13Z","pid":28120,"engine":"r","severity":"error","render":false,"text":"## Error: Scanner error: mapping values are not allowed in this context at line 4, column 22"}
 {"chunk":null,"ts":"2026-09-24T16:53:42Z","pid":28120,"engine":"r","severity":"warning","render":false,"warning":"## Warning: cannot open file 'A1_Data_Excel.csv': No such file or directory"}
 {"chunk":null,"ts":"2026-09-24T16:53:42Z","pid":28120,"engine":"r","severity":"error","render":false,"text":"## Error: cannot open the connection"}
+{"chunk":null,"ts":"2026-09-24T17:26:07Z","pid":22992,"engine":"r","severity":"error","render":false,"text":"## Error: object 'cc1_data_mod' not found"}
+{"chunk":null,"ts":"2026-09-24T17:26:23Z","pid":22992,"engine":"r","severity":"error","render":false,"text":"## Error: object 'assn1_data_mod2' not found"}
+{"chunk":null,"ts":"2026-09-24T17:31:51Z","pid":22992,"engine":"r","severity":"error","render":false,"text":"## Error: 2 arguments passed to 'class' which requires 1"}
+{"chunk":null,"ts":"2026-09-24T17:34:03Z","pid":22992,"engine":"r","severity":"error","render":false,"text":"## Error: object 'False' not found"}

@@ -77,12 +77,11 @@ cc1_data_mod$ovary_area <- cc1_data_mod$ovary_width*cc1_data_mod$ovary_height
 
 Now document the inspection commands you used (`class()`, `dim()`, `str()`, `head()`, `tail()`) in the chunk below. Add the chunk option that **shows this code in the report but does not run it**, so that the reader can see what you checked without pages of output.
 
-```{r inspect, eval=F}
+```{r inspect}
 class(cc1_data_mod)
 dim(cc1_data_mod)
 str(cc1_data_mod)
-head(cc1_data_mod)
-tail(cc1_data_mod)
+
 
 
 ```
@@ -91,8 +90,7 @@ tail(cc1_data_mod)
 
 Write the formula you used for ovary area as a **full-line equation** in LaTeX (Chapter 5, *Equations*), using `\times` for multiplication. Then, in a sentence of ordinary text, state its units using an **in-line equation** with a superscript.
 
-$$OvaryHeight\times Ovary Width=Ovary Area$$
-Ovary Height uses $mm$, Ovary Width uses $mm$, and Ovary Area uses $mm^2$
+(equation here)
 
 # Dynamic table
 

@@ -92,8 +92,7 @@ tail(cc1_data_mod)
 Write the formula you used for ovary area as a **full-line equation** in LaTeX (Chapter 5, *Equations*), using `\times` for multiplication. Then, in a sentence of ordinary text, state its units using an **in-line equation** with a superscript.
 
 $$OvaryHeight\times Ovary Width=Ovary Area$$
-Ovary Height uses $mm$, Ovary Width uses $mm$, and Ovary Area uses $mm^2$
-
+Ovary Height uses $mm$, Ovary Width uses $mm
 # Dynamic table
 
 **a.** In the chunk below, calculate the mean `ovary_area` for each `population_type` with `aggregate()` (Chapter 3, *Other Functions*) and save the result as `area_means`. This chunk should run but be **completely hidden** in the report.
