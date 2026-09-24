@@ -1567,6 +1567,11 @@ of these variables from the Coding Challenge 1 dataset:
 and dashes</em> format from the chapter, not R code.</p>
 <hr />
 <table>
+<colgroup>
+<col width="29%" />
+<col width="41%" />
+<col width="29%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -1577,18 +1582,23 @@ and dashes</em> format from the chapter, not R code.</p>
 <tbody>
 <tr class="odd">
 <td>population_type</td>
-<td></td>
-<td></td>
+<td>Describes what population the plant is from</td>
+<td>No units</td>
 </tr>
 <tr class="even">
 <td>ovary_width</td>
-<td></td>
-<td></td>
+<td>Describes the width of the ovary</td>
+<td>mm</td>
 </tr>
 <tr class="odd">
 <td>ovary_height</td>
-<td></td>
-<td></td>
+<td>Describes the height of the ovary</td>
+<td>mm</td>
+</tr>
+<tr class="even">
+<td>flower_number</td>
+<td>Describes the number of flowers on each plant</td>
+<td>No units (just a count)</td>
 </tr>
 </tbody>
 </table>
@@ -1636,6 +1646,25 @@ the result as <code>area_means</code>. This chunk should run but be
 <code>kable()</code> from the <code>knitr</code> package (Chapter 5,
 <em>Dynamic Tables</em>), including a <code>caption</code>. This chunk
 should show the <strong>table but not the code</strong>.</p>
+<table>
+<caption>Summary Table of Ovary Area means in each population</caption>
+<thead>
+<tr class="header">
+<th align="left">population_type</th>
+<th align="right">ovary_area</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">A</td>
+<td align="right">10.58363</td>
+</tr>
+<tr class="even">
+<td align="left">S</td>
+<td align="right">10.24086</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="embedded-graph" class="section level1" number="8">
 <h1><span class="header-section-number">8</span> Embedded graph</h1>

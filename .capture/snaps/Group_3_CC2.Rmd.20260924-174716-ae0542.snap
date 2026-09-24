@@ -53,10 +53,10 @@ Write a **Markdown table** (Chapter 5, *Tables*) with three columns — variable
 ---------------------------------
 Variable | Description | Units
 ---------|-------------|---------
-population_type |Describes what population the plant is from | No units
-ovary_width |Describes the width of the ovary | mm
-ovary_height |Describes the height of the ovary | mm
-flower_number |Describes the number of flowers on each plant | No units (just a count)
+population_type | |
+ovary_width | |
+ovary_height | |
+
 
 
 # Import and clean the data
@@ -99,17 +99,15 @@ Ovary Height uses $mm$, Ovary Width uses $mm$, and Ovary Area uses $mm^2$
 
 **a.** In the chunk below, calculate the mean `ovary_area` for each `population_type` with `aggregate()` (Chapter 3, *Other Functions*) and save the result as `area_means`. This chunk should run but be **completely hidden** in the report.
 
-```{r area-means,include=F }
- area_means <- aggregate(ovary_area ~ population_type, data=cc1_data_mod, mean)
+```{r area-means}
+# area_means <- 
 
 ```
 
 **b.** Display `area_means` with `kable()` from the `knitr` package (Chapter 5, *Dynamic Tables*), including a `caption`. This chunk should show the **table but not the code**.
 
-```{r area-table, echo=F}
-library(knitr)
+```{r area-table}
 
-kable(area_means, caption="Summary Table of Ovary Area means in each population")
 ```
 
 # Embedded graph

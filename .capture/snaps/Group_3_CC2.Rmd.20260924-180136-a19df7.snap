@@ -99,17 +99,17 @@ Ovary Height uses $mm$, Ovary Width uses $mm$, and Ovary Area uses $mm^2$
 
 **a.** In the chunk below, calculate the mean `ovary_area` for each `population_type` with `aggregate()` (Chapter 3, *Other Functions*) and save the result as `area_means`. This chunk should run but be **completely hidden** in the report.
 
-```{r area-means,include=F }
- area_means <- aggregate(ovary_area ~ population_type, data=cc1_data_mod, mean)
-
+```{r area-means}
+ area_means <- aggregate()
+  
+  aggregate(mean(cc1_data_mod$ovary_area), cc1_data_mod$population_type)
+aggregate()
 ```
 
 **b.** Display `area_means` with `kable()` from the `knitr` package (Chapter 5, *Dynamic Tables*), including a `caption`. This chunk should show the **table but not the code**.
 
-```{r area-table, echo=F}
-library(knitr)
+```{r area-table}
 
-kable(area_means, caption="Summary Table of Ovary Area means in each population")
 ```
 
 # Embedded graph

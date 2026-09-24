@@ -107,9 +107,13 @@ Ovary Height uses $mm$, Ovary Width uses $mm$, and Ovary Area uses $mm^2$
 **b.** Display `area_means` with `kable()` from the `knitr` package (Chapter 5, *Dynamic Tables*), including a `caption`. This chunk should show the **table but not the code**.
 
 ```{r area-table, echo=F}
-library(knitr)
+library(dplyr)
 
-kable(area_means, caption="Summary Table of Ovary Area means in each population")
+SumTable<-area_means
+  group_by(population_type,ovary_area)
+  summarise
+
+kable(area_means, caption="Summary Table of Ovary Area means in each population ")
 ```
 
 # Embedded graph
