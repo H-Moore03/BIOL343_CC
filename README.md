@@ -2,3 +2,4 @@
 GitHub repository for BIOL 343 statistics
 
 # BIOL343_CC
+pull
