@@ -11,3 +11,9 @@
 {"chunk":null,"ts":"2026-09-24T18:08:06Z","pid":22992,"engine":"r","severity":"error","render":false,"text":"## Error: could not find function \"kable\""}
 {"chunk":null,"ts":"2026-09-24T18:08:20Z","pid":22992,"engine":"r","severity":"error","render":false,"text":"## Error: could not find function \"kable\""}
 {"chunk":null,"ts":"2026-09-24T18:08:48Z","pid":22992,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘knitr’ was built under R version 4.5.3"}
+{"chunk":null,"ts":"2026-09-25T16:20:33Z","pid":33308,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘ggplot2’ was built under R version 4.5.3"}
+{"chunk":null,"ts":"2026-09-25T16:22:46Z","pid":33308,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘knitr’ was built under R version 4.5.3"}
+{"chunk":null,"ts":"2026-09-25T16:22:46Z","pid":33308,"engine":"r","severity":"error","render":false,"text":"## Error: \u001b[1m\u001b[22m`data` must be a \u001b[34m<data.frame>\u001b[39m, or an object coercible by `fortify()`, or a valid \u001b[34m<data.frame>\u001b[39m-like object coercible by\n`as.data.frame()`, not a <ggplot2::mapping> object.\n\u001b[36mℹ\u001b[39m Did you accidentally pass `aes()` to the `data` argument?"}
+{"chunk":null,"ts":"2026-09-25T16:25:16Z","pid":33308,"engine":"r","severity":"error","render":false,"text":"## Error: \u001b[1m\u001b[22m`mapping` must be created\nby `aes()`.\n\u001b[31m✖\u001b[39m You've supplied a\n  \u001b[34m<LayerInstance>\u001b[39m object."}
+{"chunk":null,"ts":"2026-09-25T16:33:35Z","pid":33308,"engine":"r","severity":"error","render":false,"text":"## Error: object 'ovary_area' not found"}
+{"chunk":null,"ts":"2026-09-25T16:34:03Z","pid":33308,"engine":"r","severity":"error","render":false,"text":"## Error: plot.new has not been called yet"}

@@ -116,13 +116,10 @@ kable(area_means, caption="Summary Table of Ovary Area means in each population"
 
 Make a histogram of `ovary_area` with `ggplot()` + `geom_histogram()` (Chapter 4), choosing a sensible `binwidth` and using `facet_wrap()` to give each `population_type` its own panel, `labs()` for axis labels with units and a title, and `theme_classic()` (Chapter 7). This chunk should show the **graph but not the code**, and it should not print package start-up messages (see the chunk header used under *Embed Graphs* in Chapter 5).
 
-```{r area-histogram, echo=F}
+```{r area-histogram}
 library(ggplot2)
 
-plot1<-ggplot(aes(x=ovary_area), data=cc1_data_mod) + geom_histogram()+stat_bin(bins=15) + facet_wrap(vars(population_type))+xlab("Ovary Area (mm^2)")+ylab("Count")+ggtitle("Ovary Area in Two Different Populations")
-
-plot1+theme_classic()
-
+ggplot(aes(x=ovary_area), data=cc1_data_mod) + geom_histogram(stat)
 
 ```
 
